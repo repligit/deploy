@@ -12,13 +12,13 @@
 
 ## Diagram
 
-![diagram](diagram.png)
+![diagram](diagram.svg)
 
 
 
 ## Flow
 
-![flow](flow.png)
+![flow](flow.svg)
 
 
 
