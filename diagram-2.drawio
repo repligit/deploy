@@ -1,0 +1,67 @@
+<mxfile host="65bd71144e">
+    <diagram id="hEeUyhEuUHNxcRoj7Iha" name="Page-1">
+        <mxGraphModel dx="1616" dy="1471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="79" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;dashed=1;strokeColor=none;fontSize=8;" parent="1" vertex="1">
+                    <mxGeometry x="-25" y="51" width="1050" height="720" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=#0077FF;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="100" width="940" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeColor=#0077FF;" vertex="1" parent="1">
+                    <mxGeometry x="545" y="130" width="210" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=#0077FF;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="460" width="940" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="&lt;b&gt;Repligit Server&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 10px;&quot;&gt;(gRPC client)&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeColor=#0077FF;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="535" width="360" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="&lt;b&gt;Git side&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;dashed=1;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="100" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="&lt;b&gt;Replication side&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;dashed=1;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="460" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;replica&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 6px;&quot;&gt;(gRPC server)&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#0077FF;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="260" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;plugin&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;(RPC server)&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#0077FF;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="180" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Repligit Plugin&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="545" y="130" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=10;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="84" target="89">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="475" y="730" as="sourcePoint"/>
+                        <mxPoint x="480" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="87" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=10;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="83" target="84">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="560" y="270" as="sourcePoint"/>
+                        <mxPoint x="414.9999999999998" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="89" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Git Server&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(RPC client)&lt;/font&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeColor=#0077FF;" vertex="1" parent="1">
+                    <mxGeometry x="245" y="150" width="210" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="&lt;b&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;HashiCorp&lt;br&gt;RPC&lt;/font&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;dashed=1;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="475" y="170" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=classic;startFill=1;dashed=1;" edge="1" parent="1" source="66" target="83">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="510" y="450" as="sourcePoint"/>
+                        <mxPoint x="560" y="400" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="500" y="410"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
